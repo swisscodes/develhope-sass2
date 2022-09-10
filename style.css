@@ -1,0 +1,37 @@
+body > div:first-child {
+  border: 1px solid red;
+}
+body > div:first-child > h1:first-child {
+  margin-left: auto;
+  margin-right: auto;
+  width: max-content;
+  text-align: center;
+  border-bottom: 1px solid blue;
+  color: rgb(95, 247, 128);
+}
+body > div:first-child > section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+}
+body > div:first-child > section:first-of-type article:nth-child(odd) {
+  color: blue;
+  text-align: center;
+  padding: 10px;
+  border: 1px solid rgb(95, 247, 128);
+}
+body > div:first-child > section:first-of-type article:nth-child(even) {
+  color: red;
+  text-align: center;
+  padding: 10px;
+  border: 1px solid rgb(95, 247, 128);
+}
+body > div:first-child > section:last-of-type article {
+  color: rgb(95, 247, 128);
+  text-align: center;
+  padding: 24px;
+  border: 1px solid blue;
+}
+
+/*# sourceMappingURL=style.css.map */
